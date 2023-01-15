@@ -34,7 +34,7 @@ function get_cluster_components(){
 			if [ $is_healthy_secondary = true ]
 				then 
 					backup_replica_set $replica_set_member $replica_set_name
-                    break
+		                        break
 				fi	
 		done
   done
